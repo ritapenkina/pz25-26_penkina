@@ -1,0 +1,16 @@
+﻿<Window x:Class="pz1_penkina.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pz1_penkina"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="238" Width="224">
+    <Grid Margin="0,0,10,-6">
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="32,24,0,0" TextWrapping="Wrap" Text="Введите название товара" VerticalAlignment="Top" Width="154"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="32,54,0,0" TextWrapping="Wrap" Text="Введите ваш адрес" VerticalAlignment="Top" Width="154"/>
+        <Button x:Name="button1" Content="Заказ на дом" HorizontalAlignment="Left" Margin="51,106,0,0" VerticalAlignment="Top" Width="117" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Забрать из магазина" HorizontalAlignment="Left" Margin="51,131,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+
+    </Grid>
+</Window>
